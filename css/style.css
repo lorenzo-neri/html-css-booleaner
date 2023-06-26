@@ -1,10 +1,39 @@
-*{
+* {
     margin: 0;
+    margin-left: 1px;
+    padding: 0;
     box-sizing: border-box;
-
 }
 
-.subtitle{
+.subtitle-one{
     color: gray;
    
+}
+
+.subtitle-two{
+    color: gray;
+    font-size: 70%;
+}
+
+#website{
+    text-decoration: none;
+    color: rgb(59, 195, 205);
+}
+
+.photo-description{
+    font-size: 70%;
+}
+
+.highlighted{
+    background-color: yellow;
+}
+
+ul{ 
+    padding-left: 30px;
+}
+
+thead{
+    color: white;
+    background-color: rgb(112, 112, 255);
+    width: 10000px;
 }
