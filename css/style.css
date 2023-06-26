@@ -1,6 +1,11 @@
+table, td, th, tr {
+    border-spacing: 0;
+}
+  
 * {
     margin: 0;
     margin-left: 1px;
+    margin-right: 1px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -32,8 +37,23 @@ ul{
     padding-left: 30px;
 }
 
+table{
+    width: 100%;
+}
+
 thead{
+    background-color: rgb(70, 175, 250);
     color: white;
-    background-color: rgb(112, 112, 255);
-    width: 10000px;
+}
+
+th{
+    text-align: left;
+}
+
+.left{
+    width: 25%;
+}
+
+.lightblue{
+    background-color: lightblue;
 }
